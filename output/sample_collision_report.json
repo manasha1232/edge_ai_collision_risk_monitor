@@ -1,0 +1,27 @@
+{
+    "project": "Edge-AI Autonomous Pedestrian Collision Risk Monitor",
+    "day": 29,
+    "status": "SUCCESS",
+    "resolution": {
+        "width": 1280,
+        "height": 720
+    },
+    "performance": {
+        "total_frames_processed": 90,
+        "execution_duration_sec": 1.215,
+        "average_fps": 74.1
+    },
+    "collision_risk_metrics": {
+        "min_time_to_collision_sec": 0.63,
+        "max_relative_velocity_kmh": 127.73,
+        "risk_state_counts": {
+            "SAFE": 2,
+            "WARNING": 36,
+            "CRITICAL_BRAKE": 52
+        }
+    },
+    "output_files": {
+        "dashcam_image": "output\\sample_collision_output.jpg",
+        "telemetry_report": "output\\sample_collision_report.json"
+    }
+}
